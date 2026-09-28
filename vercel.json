@@ -1,5 +1,8 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/", "destination": "/quiz1", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/quiz1", "destination": "/" },
     { "source": "/quiz1/profile", "destination": "/quiz1/profile/index.html" },
